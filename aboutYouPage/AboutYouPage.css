@@ -1,0 +1,93 @@
+    /*Navbar*/
+@media screen and (max-device-width : 30px){
+   }
+#nav {
+        font-family:trebuchet ms;
+        text-align:center;
+        background-color: #222;
+        margin-bottom:4%;
+    }
+
+#nav_wrapper {
+    margin: 0 auto;
+    text-align: left;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position:relative;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #333;
+}
+#nav ul li a, visited {
+    color: #ccc;
+    display:block;
+    padding: 15px;
+    text-decoration:none;
+}
+/*EVERYTHING ELSE*/
+
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    background:url("http://www.hardcoregamer.com/wp-content/uploads/2014/03/BAK_Sshot058.jpg");
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+.div{
+    border-radius:5px;
+    background-color:black;
+    height:100px;
+    width:1300px;
+    border:6px solid #FFFFFF;
+}
+
+.div2{
+    border-radius:5px;
+    background-color:black;
+    height:150px;
+    width:300px;
+    border:6px solid #FFFFFF;
+}
+
+.div3{
+    border-radius:5px;
+    background-color:black;
+    height:450px;
+    width:450px;
+    border:6px solid #FFFFFF;
+}
+
+
+
+.snowbord{
+    border-radius:5px;
+    background-color:black;
+    height:100px;
+    width:450px;
+    border:6px solid #FFFFFF;
+}
+
+
+.list{
+    color: white;
+    font-size:20px;
+    font-family: Arial;
+}
+
+
+.games{
+    color:white;
+    font-size:20;
+    font-family:Arial;
+}
+

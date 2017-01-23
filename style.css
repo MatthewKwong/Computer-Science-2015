@@ -1,0 +1,138 @@
+/*Navbar*/
+#nav{
+    font-family:trebuchet ms;
+    font-size:20px;
+    background-color: #222;
+    margin-bottom:4%;
+}
+
+#nav_wrapper{
+    margin: 0 auto;
+    text-align: left;
+}
+
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position:relative;
+}
+
+#nav ul li{
+    display: inline-block;
+}
+
+#nav ul li:hover{
+    background-color: #333;
+}
+
+#nav ul li a,visited{
+    color: #ccc;
+    display:block;
+    padding: 15px;
+    text-decoration:none;
+}
+
+#nav ul li a: hover{
+    color:#ccc;
+    text-decoration:none;
+}
+
+#nav ul li:hover ul{
+    display: block;
+}
+
+#nav ul ul{
+    /*This changes the list font size*/
+    font-size:.8em;
+    display:none;
+    position: absolute;
+    background-color: #333;
+    min-width: 150px;
+}
+
+#nav ul ul li{
+    display: block;
+}
+
+#nav ul ul li a, visited{
+    color: #ccc;
+}
+
+#nav ul ul li a:hover{
+    color: #099;
+}
+
+
+
+/*Rest of site*/
+html { 
+    background: url("http://i.imgur.com/eWtfMME.png") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+body {
+    background-size:100%;
+    background-repeat:none;
+    padding:0;
+    margin: 0;
+    overflow:hidden;
+    color: white;
+    padding:20;
+    text-align: justify;
+}
+
+#footer {
+    text-align:center;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding:9px;
+}
+
+.addon{
+    width:1100px;
+    background-color:#111112;
+    color:white;
+    margin:0 auto;
+    margin-top:20px;
+    border:#708FA3 4px solid;
+    border-radius: 20px;
+    padding:8px;
+    text-align:center;
+}
+
+a{
+    color:white;
+}
+
+a:hover{
+    transition: color .5s;
+    transition: background-color 10s;
+    background-color:black;
+    color:#FFFFFF;
+}
+
+.button {
+    font-size:16px;
+    border: #708FA3  4px solid;
+    color:#00B2B2;
+    background-color:black;
+    padding: 5px;
+    margin: 9px;
+    position:relative;
+    top:25%;
+    left:1%;
+    border-radius:6px;
+    transition: all 0.4s ease;
+}
+
+.button:hover {
+    background-color:#123752;
+    color:black;
+  -webkit-transform: scale(1.2);
+}
+
+
+/* ___________Color_Changing_For_Divs__________ */
+

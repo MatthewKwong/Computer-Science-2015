@@ -1,0 +1,68 @@
+    /*Navbar*/
+@media screen and (max-device-width : 30px){
+   }
+#nav {
+        font-family:trebuchet ms;
+        text-align:center;
+        background-color: #222;
+        margin-bottom:4%;
+    }
+
+#nav_wrapper {
+    margin: 0 auto;
+    text-align: left;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position:relative;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #333;
+}
+#nav ul li a, visited {
+    color: #ccc;
+    display:block;
+    padding: 15px;
+    text-decoration:none;
+}
+/*EVERYTHING ELSE*/
+
+
+
+body{
+    padding:0;
+    margin: 0;
+}
+
+.positioning{
+    margin-left:35%;
+    margin-right:20%;
+}
+
+#title{
+    margin-left:35%;
+}
+
+img{
+    text-align:center;
+}
+
+table {
+    background-image: url(http://i.imgur.com/12VLjDx.png)
+}
+
+td {
+    width:25px;
+    height:28px;
+    text-align:center;
+}
+ Button{
+width: 438px;
+}
+
+/*Coin: http://i.imgur.com/R6ikFuG.png*/

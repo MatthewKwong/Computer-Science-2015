@@ -1,0 +1,83 @@
+    /*Navbar*/
+@media screen and (max-device-width : 30px){
+   }
+#nav {
+        font-family:trebuchet ms;
+        text-align:center;
+        background-color: #222;
+        margin-bottom:4%;
+    }
+
+#nav_wrapper {
+    margin: 0 auto;
+    text-align: left;
+}
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position:relative;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #333;
+}
+#nav ul li a, visited {
+    color: #ccc;
+    display:block;
+    padding: 15px;
+    text-decoration:none;
+}
+/*EVERYTHING ELSE*/
+
+
+.divs {
+    border:6px solid #FFFFFF;
+    background-color: #2D283A;
+    border-radius: 10;
+    float:left;
+    padding: 15;
+    font-family:Arial;
+    font-size:20;
+    height:430;
+    width:1000;
+}
+
+
+h2 {
+    font-family:Verdana;
+    color: #F7FF73;
+    clear:both;
+}
+
+body {
+    background:url("http://cdn.wall-pix.net/albums/art-abstract/00004327.jpg");
+    background-size:cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-color: #070311;
+    color: white;
+    padding:20;
+    text-align: justify;
+    padding:0;
+    margin: 0;
+}
+
+.header{
+    height:60px;
+    margin-left: 30px;
+    text-align:center;
+    }
+
+
+p:first-letter {
+  display:block;
+  float:left;
+  font-family:Georgia;
+  font-size: 250%;
+  font-weight: bold;
+  line-height: 90%;
+}
